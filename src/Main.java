@@ -18,6 +18,7 @@ public class Main {
 
         Trip trip = rideService.bookRide(rider, drivers);
 
+
         if (trip != null) {
             System.out.println("Trip booked successfully! Trip ID: " + trip.getTripId());
             // Safety actions
